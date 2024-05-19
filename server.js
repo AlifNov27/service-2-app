@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-res.send('Hello ini server 2!');
+res.send('Hello ini server 2 gaiss!');
 });
 
 const PORT = process.env.PORT || 8080;
